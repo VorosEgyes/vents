@@ -73,6 +73,11 @@ This project provides simple HTTP endpoints for direct API control:
 - **Additional Sensors**: Integrate temperature or humidity sensors for automated fan control based on environmental conditions.
 - **OpenHAB Integration**: Further customize for smart home integration.
 
+## Project photos
+
+![ESP01S](https://github.com/VorosEgyes/vents/blob/master/pictures/inside.JPG)
+
+
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
