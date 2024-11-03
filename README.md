@@ -19,24 +19,18 @@ This project is an ESP8266-based controller for three PWM fans, which allows rem
 
 ## Software Requirements
 
-- [Arduino IDE](https://www.arduino.cc/en/software) with **ESP8266 Board Package**
-- Libraries:
-  - [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
-  - [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
+- **Platformio**
 
 ## Installation
 
 1. **Clone or Download** this repository to your local machine.
-2. **Install Required Libraries**:
-   - Open Arduino IDE and go to **Library Manager** (`Sketch` > `Include Library` > `Manage Libraries...`)
-   - Search and install `ESPAsyncWebServer` and `ESPAsyncTCP`.
-3. **Set Up Wi-Fi Credentials**:
+2. **Set Up Wi-Fi Credentials**:
    - Open the Arduino sketch and enter your Wi-Fi SSID and password in the `setup` function:
      ```cpp
      const char* ssid = "YOUR_SSID";
      const char* password = "YOUR_PASSWORD";
      ```
-4. **Upload Code** to your ESP8266 using Arduino IDE.
+3. **Upload Code** to your ESP8266 using Platformio.
 5. **Access the Web Interface**:
    - Once connected to Wi-Fi, open a web browser and navigate to the IP address shown in the Serial Monitor.
    - Control fan speeds and timers directly from the interface.
