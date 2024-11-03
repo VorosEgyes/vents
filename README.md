@@ -13,7 +13,8 @@ This project is an ESP8266-based controller for three PWM fans, which allows rem
 ## Hardware Requirements
 
 - **ESP8266** (e.g., NodeMCU, Wemos D1 Mini)
-- Three PWM-controllable fans or motors (connect to D5, D6, and D7)
+- LM2596 DC-DC Step-down Power Supply Module to provide 5V for the ESP8266
+- Three PWM-controllable fans or PWM controller - MOS FET Trigger Switch Drive Module DC 5V-36V PWM Regulator (connect to D5, D6, and D7)
 - Power supply compatible with the fans
 
 ## Software Requirements
