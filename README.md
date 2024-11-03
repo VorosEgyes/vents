@@ -75,7 +75,7 @@ This project provides simple HTTP endpoints for direct API control:
 
 ## Project photos
 
-![ESP01S](https://github.com/VorosEgyes/vents/blob/master/pictures/inside.JPG)
+![Inside](https://github.com/VorosEgyes/vents/blob/main/pictures/inside.jpg)
 
 
 ## License
